@@ -180,13 +180,17 @@
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
       <!-- Logo -->
       <a href="#hero" class="font-sora text-xl font-bold text-white flex items-center">
-        <span class="text-[#FF6B00]">Data</span>Pivots<span class="text-[#FF6B00]">.ai</span>
+      <img 
+        src="./logo.png"
+        alt="logo"
+        class="w-full h-6 sm:h-10 object-cover transition-transform duration-700 transform group-hover:scale-105"
+      >
       </a>
 
       <!-- Desktop Navigation -->
       <div class="hidden lg:flex space-x-8">
         <a href="#hero" class="font-inter text-sm hover:text-[#FF6B00] transition-colors duration-300">Home</a>
-        <a href="#services" class="font-inter text-sm hover:text-[#FF6B00] transition-colors duration-300">Offerings</a>
+        <a href="#offering" class="font-inter text-sm hover:text-[#FF6B00] transition-colors duration-300">Offerings</a>
         <a href="#approach" class="font-inter text-sm hover:text-[#FF6B00] transition-colors duration-300">About</a>
         <a href="#contact" class="font-inter text-sm bg-[#FF6B00] px-4 py-2 rounded hover:bg-orange-700 transition-colors duration-300">Contact Us</a>
       </div>
@@ -271,31 +275,19 @@
 
 
 <div id="root">
-  <section id="hero" class="bg-neutral-900 text-white min-h-screen flex items-center relative pt-24 md:pt-32 overflow-hidden">
-    <div class="absolute inset-0 z-0 opacity-30">
-      <img 
-        src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8bWFpbiUyMHZpZXclMjBmZWF0dXJlZCUyMGltYWdlJTIwcHJvZmVzc2lvbmFsJTIwaGlnaCUyMHF1YWxpdHklMjBmZWF0dXJlZHxlbnwwfDB8fHwxNzQzMTU5NDUyfDA&ixlib=rb-4.0.3&q=80&w=1080?q=80"
-        alt="Professional business environment representing data analytics"
-        onerror="this.onerror=null; this.src='https://placehold.co/1080x720/232323/FFFFFF?text=DataPivots.ai'"
-        class="w-full h-full object-cover"
-      >
-      <div class="absolute inset-0 bg-gradient-to-r from-neutral-900 to-neutral-900/70"></div>
-    </div>
-
+  <section id="hero" class="min-h-screen flex items-center relative pt-24 md:pt-32 overflow-hidden">
     <div class="container mx-auto px-4 md:px-8 z-10 relative">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div class="lg:col-span-7 space-y-8">
           <div class="space-y-2">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Data & AI <span class="text-[#FF6B00]">Simplified</span>
-            </h1>
-            <p class="text-lg md:text-xl text-neutral-300 max-w-2xl mt-6">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-boldleading-tight">   Data & AI <span class="text-[#FF6B00]">Simplified</span></h1>
+            <p class="text-lg md:text-xl max-w-2xl mt-6">
               To unlock critical business value with AI, overcome risks of integration complexity, inconsistent output, and technical skill gaps with a robust data foundation and simple tailored solutions.
             </p>
           </div>
           
           <div class="flex flex-col sm:flex-row gap-4 pt-4">
-            <a href="#services" class="bg-[#FF6B00] hover:bg-orange-700 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300 text-center">
+            <a href="#offering" class="bg-[#FF6B00] hover:bg-orange-700 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300 text-center">
               Explore Our Offerings
             </a>
             <a href="#contact" class="border border-white hover:border-[#FF6B00] hover:text-[#FF6B00] font-medium py-3 px-6 rounded-md transition-colors duration-300 text-center">
@@ -415,7 +407,7 @@
 
 
 <div id="root">
-  <section id="offerings" class="py-10 bg-neutral-100">
+  <section id="offering" class="py-10 bg-neutral-100">
     <div class="container mx-auto px-4 max-w-6xl">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold mb-6">Our Offerings</h2>
@@ -679,7 +671,7 @@
 </element><element id="f2c9ed7b-2752-48f6-a525-0168d18f8d5f" data-section-id="f2c9ed7b-2752-48f6-a525-0168d18f8d5f">
 
 <div id="root">
-  <section id="why-choose-us" class="py-10 bg-neutral-900 text-white relative overflow-hidden">
+  <section id="why-choose-us" class="py-10 relative overflow-hidden">
     
     <div class="container mx-auto px-4 max-w-6xl relative z-10">
       <div class="text-center mb-16">
@@ -710,7 +702,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-3">Expert</h3>
+              <h3 class="text-xl text-neutral-100 mb-3">Expert</h3>
               <p class="text-neutral-300">AI & operations professionals with experience across business domains.</p>
             </div>
             
@@ -721,7 +713,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-3">Secure</h3>
+              <h3 class="text-xl text-neutral-100 mb-3">Secure</h3>
               <p class="text-neutral-300">Keeps data contained within the client's cloud environment.</p>
             </div>
             
@@ -732,7 +724,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-3">Custom & Flexible</h3>
+              <h3 class="text-xl text-neutral-100 mb-3">Custom & Flexible</h3>
               <p class="text-neutral-300">Tailored solutions with user-end refinements.</p>
             </div>
             
@@ -743,7 +735,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-3">Decision-Focused</h3>
+              <h3 class="text-xl text-neutral-100 mb-3">Decision-Focused</h3>
               <p class="text-neutral-300">Ensures real process improvements.</p>
             </div>
             
@@ -754,13 +746,13 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                 </svg>
               </div>
-              <h3 class="text-xl font-bold mb-3">Adaptable</h3>
+              <h3 class="text-xl text-neutral-100 mb-3">Adaptable</h3>
               <p class="text-neutral-300">Integrates with existing business workflows.</p>
             </div>
             
             <!-- Detail Tooltip Card -->
             <div class="bg-[#FF6B00] p-6 rounded-lg relative overflow-hidden group cursor-pointer" id="detailCard">
-              <h3 class="text-xl font-bold mb-3">Get the Details</h3>
+              <h3 class="text-xl text-neutral-100 mb-3">Get the Details</h3>
               <p class="text-white mb-8">Discover how our solutions adapt to your unique business needs.</p>
               <div class="absolute bottom-4 right-4 h-10 w-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1575,8 +1567,8 @@
             <div class="h-32 w-32 rounded-full bg-neutral-200 overflow-hidden border-4 border-white shadow-sm mb-4">
               <img src="https://media.licdn.com/dms/image/v2/C5103AQGGFeL7i3Cprw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1574931943726?e=1750291200&v=beta&t=_IfG4lwkvV1z-d5-aXG3zFHM6WyHJHO0lJhx-4AEFFs" alt="placeholder" class="w-full h-full object-cover" />
             </div>
-            <h3 class="text-lg font-bold text-neutral-800">Vivek Singh</h3>
-            <p class="text-[#FF6B00] font-medium text-sm">CEO & CTO</p>
+            <h3 class="text-lg font-bold text-neutral-800 text-center">Vivek Singh</h3>
+            <p class="text-[#FF6B00] font-medium text-sm text-center">CEO & CTO</p>
             <div class="mt-3 flex justify-center">
               <a href="https://www.linkedin.com/in/vivek-singh-8b186110/" target="blank" class="bg-neutral-100 hover:bg-neutral-200 p-2 rounded-full transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-700" fill="currentColor" viewBox="0 0 24 24">
@@ -1591,8 +1583,8 @@
             <div class="h-32 w-32 rounded-full bg-neutral-200 overflow-hidden border-4 border-white shadow-sm mb-4">
               <img src="https://media.licdn.com/dms/image/v2/C4E03AQH9TnXwHBEtYA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1636717347065?e=1750291200&v=beta&t=4U92n5PEIOKd-1y43HvIiLjckWXeaaG-fC5zSVFkAC8" alt="placeholder" class="w-full h-full object-cover" />
             </div>
-            <h3 class="text-lg font-bold text-neutral-800">Anand Devsharma</h3>
-            <p class="text-[#FF6B00] font-medium text-sm">CBO & Partnerships</p>
+            <h3 class="text-lg font-bold text-neutral-800 text-center">Anand Devsharma</h3>
+            <p class="text-[#FF6B00] font-medium text-sm text-center">CBO & Partnerships</p>
             <div class="mt-3 flex justify-center">
               <a href="https://www.linkedin.com/in/ananddevsharma/" target="blank" class="bg-neutral-100 hover:bg-neutral-200 p-2 rounded-full transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-700" fill="currentColor" viewBox="0 0 24 24">
@@ -1641,7 +1633,7 @@
             <div class="h-32 w-32 rounded-full bg-neutral-200 overflow-hidden border-4 border-white shadow-sm mb-4">
               <img src="https://media.licdn.com/dms/image/v2/C4D03AQF7tza8inoecQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1653584090819?e=1750291200&v=beta&t=jlwxhIsLq4pEm2ACnNsu5tTyulqc9JgJRkZBBK8fLx0" alt="placeholder" class="w-full h-full object-cover" />
             </div>
-            <h3 class="text-lg font-bold text-neutral-800">Rajesh Shewani</h3>
+            <h3 class="text-lg font-bold text-neutral-800 text-center">Rajesh Shewani</h3>
             <div class="mt-3 flex justify-center">
               <a href="https://www.linkedin.com/in/rajesh-shewani/" target="blank" class="bg-neutral-100 hover:bg-neutral-200 p-2 rounded-full transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-700" fill="currentColor" viewBox="0 0 24 24">
@@ -1656,7 +1648,7 @@
             <div class="h-32 w-32 rounded-full bg-neutral-200 overflow-hidden border-4 border-white shadow-sm mb-4">
               <img src="https://media.licdn.com/dms/image/v2/D4E03AQHm2Gj7DUEqQw/profile-displayphoto-shrink_200_200/B4EZU0Gv4nHgAY-/0/1740335939521?e=1750291200&v=beta&t=Lkqz7lAsAlpWTGx5uePlN8YSiJi-A9EH9LuDb0Ykc1M" alt="placeholder" class="w-full h-full object-cover" />
             </div>
-            <h3 class="text-lg font-bold text-neutral-800">Shivani Saka</h3>
+            <h3 class="text-lg font-bold text-neutral-800 text-center">Shivani Saka</h3>
             <div class="mt-3 flex justify-center">
               <a href="https://www.linkedin.com/in/shivanisaka/" target="blank" class="bg-neutral-100 hover:bg-neutral-200 p-2 rounded-full transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-700" fill="currentColor" viewBox="0 0 24 24">
@@ -1671,7 +1663,7 @@
             <div class="h-32 w-32 rounded-full bg-neutral-200 overflow-hidden border-4 border-white shadow-sm mb-4">
               <img src="https://media.licdn.com/dms/image/v2/C4D03AQG-eth-PZ8oBA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1597576532213?e=1750291200&v=beta&t=Rmjwh9Exrq3Gcfprwo_0lSuBZ4tR2c2IesqDU4TKjuk" alt="placeholder" class="w-full h-full object-cover" />
             </div>
-            <h3 class="text-lg font-bold text-neutral-800">Karthik Raghunathan</h3>
+            <h3 class="text-lg font-bold text-neutral-800 text-center">Karthik Raghunathan</h3>
             <div class="mt-3 flex justify-center">
               <a href="https://www.linkedin.com/in/karthik-raghunathan-31a3761/" target="blank" class="bg-neutral-100 hover:bg-neutral-200 p-2 rounded-full transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-700" fill="currentColor" viewBox="0 0 24 24">
@@ -1986,8 +1978,7 @@
 </element><element id="e38643df-3466-4f2a-9bd3-628343264c7c" data-section-id="e38643df-3466-4f2a-9bd3-628343264c7c">
 
 <div id="root">
-  <section id="contact" class="py-10 bg-white relative">
-    
+  <section id="contact" class="py-10 bg-neutral-100 relative">
     <div class="container mx-auto px-4 relative z-10">
       <div class="text-center mb-16">
         <h2 class="text-4xl font-bold mb-6">Contact</h2>
@@ -2113,7 +2104,7 @@
           <h3 class="text-sm font-semibold text-black mb-4">Quick Links</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="#hero" class="hover:text-[#FF6B00] transition-colors text-black">Home</a></li>
-            <li><a href="#services" class="hover:text-[#FF6B00] transition-colors text-black">Offerings</a></li>
+            <li><a href="#offering" class="hover:text-[#FF6B00] transition-colors text-black">Offerings</a></li>
             <li><a href="#approach" class="hover:text-[#FF6B00] transition-colors text-black">About Us</a></li>
             <li><a href="#contact" class="hover:text-[#FF6B00] transition-colors text-black">Contact</a></li>
           </ul>
